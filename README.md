@@ -1,4 +1,4 @@
-Gridsby
+Custom version of the theme Gridsby made for a friend.
 
 ===
 
@@ -22,7 +22,7 @@ GNU General Public License for more details.
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-Gridsby is built with Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc. 
+Gridsby is built with Underscores http://underscores.me/, (C) 2012-2014 Automattic, Inc.
 
 Gridsby incorporates code from Moesia, Copyright 2014 aThemes
 Moesia is distributed under the terms of the GNU GPL
@@ -33,8 +33,8 @@ Simple Grid by ThisisDallas Copyright (C) 2013 Dallas Bass
 Simple Grid is licensed under the MIT License.
 http://thisisdallas.github.io/Simple-Grid/
 
-Custom Meta Boxes by WebDevStudio (c) 2014 WebDevStudio 
-Custom Meta Boxes is licensed under the terms of the GNU GPLv2 
+Custom Meta Boxes by WebDevStudio (c) 2014 WebDevStudio
+Custom Meta Boxes is licensed under the terms of the GNU GPLv2
 https://github.com/WebDevStudios/Custom-Metaboxes-and-Fields-for-WordPress
 
 Font Awesome by Dave Gandy
@@ -42,7 +42,7 @@ Font Awesome is licensed under the following: (Font: SIL OFL 1.1, CSS: MIT Licen
 http://fortawesome.github.io/Font-Awesome/
 
 Masonry by the Masonry Team Copyright (c) 2011-2012
-Masonry is licensed under the terms of the GNU GPLv2 
+Masonry is licensed under the terms of the GNU GPLv2
 https://github.com/Masonry
 
 imagesLoaded by desandro Copyright (c) 2010-2015
@@ -51,7 +51,7 @@ https://github.com/desandro/imagesloaded
 
 classie by desandro Copyright (c) 2010-2015
 classie is licensed under the MIT License.
-https://github.com/desandro/classie 
+https://github.com/desandro/classie
 
 ShareJS by Jeff Escalante, Carrot Creative Copyright (c) 2013  
 ShareJS is proudly licensed under the MIT license.
@@ -61,11 +61,11 @@ Modernizr by Modernizr Team Copyright (c) 2009—2015
 Modernizr is available under the MIT license.
 https://github.com/Modernizr/Modernizr
 
-code from 3D Grid Effect by Marcus Eckert used on http://tympanus.net/Development/3DGridEffect 
+code from 3D Grid Effect by Marcus Eckert used on http://tympanus.net/Development/3DGridEffect
 
 The HTML5 Shiv by aFarkas Copyright (c) 2014 Alexander Farkas (aFarkas).
-The HTML5 Shiv is licensed under the terms of the GNU GPLv2 
-https://github.com/aFarkas/html5shiv 
+The HTML5 Shiv is licensed under the terms of the GNU GPLv2
+https://github.com/aFarkas/html5shiv
 
 jPushMenu by takien
 jPushMenu is licensed under the MIT License.
@@ -78,4 +78,4 @@ Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
 
-all theme documentation can be found at http://modernthemes.net/documentation/gridsby-documentation/ 
+all theme documentation can be found at http://modernthemes.net/documentation/gridsby-documentation/
