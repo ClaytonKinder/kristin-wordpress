@@ -14,17 +14,17 @@
 get_header(); ?>
 
 <div class="grid grid-pad">
-	<div class="col-9-12 content-wrapper">
+	<div class="col-1-1 content-wrapper">
         <div id="primary" class="content-area blog-archive">
             <main id="main" class="site-main" role="main">
-    
+
             <?php if ( have_posts() ) : ?>
-           
-    
+
+
                 <?php /* Start the Loop */ ?>
                 <?php while ( have_posts() ) : the_post(); ?>
-                
-  
+
+
                    <?php
                         /* Include the Post-Format-specific template for the content.
                          * If you want to override this in a child theme, then include a file
@@ -32,17 +32,17 @@ get_header(); ?>
                          */
                         get_template_part( 'content', get_post_format() );
                     ?>
-    
+
                 <?php endwhile; ?>
 
-			<?php gridsby_the_posts_navigation(); ?> 
-    
+			<?php gridsby_the_posts_navigation(); ?>
+
             <?php else : ?>
-    
+
                 <?php get_template_part( 'content', 'none' ); ?>
-    
+
             <?php endif; ?>
-    
+
             </main><!-- #main -->
         </div><!-- #primary -->
 	</div>

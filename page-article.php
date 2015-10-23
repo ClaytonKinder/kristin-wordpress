@@ -43,8 +43,8 @@ get_header(); ?>
 
               <a href="<?php the_field('article-url'); ?>">
                 <div class="gallery-image <?php echo $cat_name ?>">
-									<?php  ?>
                   <?php the_post_thumbnail(); ?>
+									<div class="gallery-shadow-block"></div>
                 </div>
               </a>
 

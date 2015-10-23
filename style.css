@@ -783,7 +783,6 @@ a:active {
 }
 .site-title, .site-title a {
 	font-size: 50px;
-	color: #404040;
 	margin-bottom: 0;
 }
 .site-description {
@@ -793,7 +792,7 @@ a:active {
 }
 .contact-button {
 	position: absolute;
-	top: 90px;
+	top: 60px;
 	left: 40px;
 }
 .site-content {
@@ -1296,6 +1295,64 @@ object {
 
 .post-cat-gallery-title { text-align:left; }
 
+/*******************
+CUSTOM CUSTOM CUSTOM
+*******************/
+
+button,
+.gallery-shadow-block {
+	transition: all .125s ease;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#gallery-container {
+	text-align: center;
+}
+
+.gallery-image {
+	display: inline-block;
+	position: relative;
+	height: 100%;
+}
+
+.gallery-image img {
+	position: relative;
+	height: 100%;
+}
+
+.gallery-shadow-block {
+	display: inline-block;
+	height: 98.5%;
+	width: 100%;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	z-index: 10000000;
+}
+
+.gallery-image:not(.article) {
+	display: none;
+}
+
+.site-logo,
+.site-description {
+	text-align: right;
+}
+
+article .entry-content {
+	padding: 0 15%;
+}
+
+.blog-archive main article .entry-content {
+	padding: 0;
+}
+
+.site-description {
+	margin-right: 15px;
+}
+
 /*--------------------------------------------------------------
 13.0 Skeleton
 --------------------------------------------------------------*/
@@ -1616,28 +1673,29 @@ body {
 		top: 25px;
 		right: 30px;
 	}
+
+	article .entry-content {
+		padding: 0 5%;
+	}
 }
 
 @media screen and (max-width: 480px) {
 
-.gallery-image {
-	width: 96%;
-	margin: 0 2% 15px;
-}
-}
+	.gallery-image {
+		width: 96%;
+		margin: 0 2% 15px;
+	}
 
-/*******************
-CUSTOM CUSTOM CUSTOM
-*******************/
+	.site-logo,
+	.site-description {
+		text-align: center;
+	}
 
-#gallery-container {
-	text-align: center;
-}
+	.site-description {
+		margin-right: 0;
+	}
 
-.gallery-image {
-	display: inline-block;
-}
-
-.gallery-image:not(.article) {
-	display: none;
+	article .entry-content {
+		padding: 0 1%;
+	}
 }
