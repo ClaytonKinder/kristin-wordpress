@@ -1353,6 +1353,10 @@ article .entry-content {
 	margin-right: 15px;
 }
 
+.toggle-menu {
+	padding: 1em 2em;
+}
+
 /*--------------------------------------------------------------
 13.0 Skeleton
 --------------------------------------------------------------*/
@@ -1676,6 +1680,10 @@ body {
 
 	article .entry-content {
 		padding: 0 5%;
+	}
+
+	.site-branding {
+		margin-top: 25px;
 	}
 }
 
