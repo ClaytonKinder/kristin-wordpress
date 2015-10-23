@@ -1357,6 +1357,14 @@ article .entry-content {
 	padding: 1em 2em;
 }
 
+.articles-title {
+	font-size: 36px;
+}
+
+.articles-grid {
+	margin-top: 1.5em;
+}
+
 /*--------------------------------------------------------------
 13.0 Skeleton
 --------------------------------------------------------------*/
@@ -1683,15 +1691,7 @@ body {
 	}
 
 	.site-branding {
-		margin-top: 25px;
-	}
-}
-
-@media screen and (max-width: 480px) {
-
-	.gallery-image {
-		width: 96%;
-		margin: 0 2% 15px;
+		margin-top: 2em;
 	}
 
 	.site-logo,
@@ -1701,6 +1701,14 @@ body {
 
 	.site-description {
 		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	.gallery-image {
+		width: 96%;
+		margin: 0 2% 15px;
 	}
 
 	article .entry-content {

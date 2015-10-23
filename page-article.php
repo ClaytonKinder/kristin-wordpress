@@ -11,8 +11,10 @@ get_header(); ?>
 	<div class="col-1-1 content-wrapper">
         <div id="primary" class="content-area">
             <main id="main" class="site-main" role="main">
-
-                <section class="grid3d horizontal" id="grid3d">
+								<div class="entry-title">
+									<span class="title articles-title">Articles</span>
+								</div>
+                <section class="grid3d horizontal articles-grid" id="grid3d">
 				<div class="grid-wrap">
 
                     <div id="gallery-container" class="gridsby infinite-scroll">
