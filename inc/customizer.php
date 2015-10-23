@@ -1112,7 +1112,7 @@ function gridsby_theme_customizer( $wp_customize ) {
 
   //Kristin Menu Button Color
     $wp_customize->add_setting(
-		'kristin_menu_button_color',
+		'kristin_button_color',
 		array(
 				'default'     => '#E91E63',
         'sanitize_callback' => 'sanitize_hex_color',
@@ -1122,11 +1122,11 @@ function gridsby_theme_customizer( $wp_customize ) {
 	$wp_customize->add_control(
     new WP_Customize_Color_Control(
         $wp_customize,
-        'kristin_menu_button_color',
+        'kristin_button_color',
         array(
-            'label'      => __( 'Menu Button Color', 'kristin' ),
+            'label'      => __( 'Button Color', 'kristin' ),
             'section'    => 'colors',
-            'settings'   => 'kristin_menu_button_color',
+            'settings'   => 'kristin_button_color',
             'priority'   => 100000
         )
     )
@@ -1374,7 +1374,7 @@ function gridsby_add_customizer_css() {
     <?php if ( get_theme_mod( 'kristin_hover_color' ) ) : ?>
     a:hover { color: <?php echo esc_attr( get_theme_mod( 'kristin_hover_color', '#C2185B' )) ?>; }
     .menu > ul > li > a:hover { color: #fff; background-color: <?php echo esc_attr( get_theme_mod( 'kristin_hover_color', '#C2185B' )) ?>; }
-		button:hover { background: <?php echo esc_attr( get_theme_mod( 'kristin_hover_color', '#C2185B' )) ?>; border-color: <?php echo esc_attr( get_theme_mod( 'kristin_hover_color', '#404040' )) ?>; }
+		button:hover, input[type=submit]:hover { background: <?php echo esc_attr( get_theme_mod( 'kristin_hover_color', '#C2185B' )) ?>; border-color: <?php echo esc_attr( get_theme_mod( 'kristin_hover_color', '#404040' )) ?>; }
     .gallery-image:hover > .gallery-shadow-block { box-shadow: inset 0px 0px 100px 0px <?php echo esc_attr( get_theme_mod( 'kristin_hover_color', '#C2185B' )) ?>; }
 		<?php endif; ?>
 
@@ -1383,8 +1383,8 @@ function gridsby_add_customizer_css() {
     button { color: color: <?php echo esc_attr( get_theme_mod( 'kristin_hover_block_text_color', '#FFF' )) ?>; }
 		<?php endif; ?>
 
-    <?php if ( get_theme_mod( 'kristin_menu_button_color' ) ) : ?>
-		.toggle-menu { background: <?php echo esc_attr( get_theme_mod( 'kristin_menu_button_color', '#E91E63' )) ?>; border-color: <?php echo esc_attr( get_theme_mod( 'kristin_menu_button_color', '#404040' )) ?>; }
+    <?php if ( get_theme_mod( 'kristin_button_color' ) ) : ?>
+		button, input[type=submit] { background: <?php echo esc_attr( get_theme_mod( 'kristin_button_color', '#E91E63' )) ?>; border-color: <?php echo esc_attr( get_theme_mod( 'kristin_button_color', '#404040' )) ?>; }
 		<?php endif; ?>
 
 	</style>
